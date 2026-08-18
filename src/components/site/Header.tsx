@@ -1,4 +1,5 @@
 import { useState } from "react";
+import ehpsaLogo from "@/assets/ehpsa-logo.jpg.asset.json";
 
 const NAV_LINKS = [
   { label: "About", href: "#about" },
