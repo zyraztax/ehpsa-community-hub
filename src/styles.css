@@ -4,6 +4,11 @@
 
 @custom-variant dark (&:is(.dark *));
 
+@theme {
+  --font-display: "Sora", sans-serif;
+  --font-sans: "Manrope", sans-serif;
+}
+
 /*
  * Design system definition.
  *
