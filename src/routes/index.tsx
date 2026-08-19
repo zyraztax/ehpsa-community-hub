@@ -4,7 +4,7 @@ import { Hero } from "@/components/site/Hero";
 import { AboutCards } from "@/components/site/AboutCards";
 import { MissionVision } from "@/components/site/MissionVision";
 import { Programs } from "@/components/site/Programs";
-import { Chapters } from "@/components/site/Chapters";
+import { Branches } from "@/components/site/Branches";
 import { Connect } from "@/components/site/Connect";
 import { Footer } from "@/components/site/Footer";
 
@@ -67,7 +67,7 @@ function Index() {
         <AboutCards />
         <MissionVision />
         <Programs />
-        <Chapters />
+        <Branches />
         <Connect />
       </main>
       <Footer />
