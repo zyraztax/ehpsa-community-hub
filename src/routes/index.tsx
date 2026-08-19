@@ -5,6 +5,7 @@ import { AboutCards } from "@/components/site/AboutCards";
 import { MissionVision } from "@/components/site/MissionVision";
 import { Programs } from "@/components/site/Programs";
 import { Branches } from "@/components/site/Branches";
+import { Gallery } from "@/components/site/Gallery";
 import { Connect } from "@/components/site/Connect";
 import { Footer } from "@/components/site/Footer";
 
@@ -68,6 +69,7 @@ function Index() {
         <MissionVision />
         <Programs />
         <Branches />
+        <Gallery />
         <Connect />
       </main>
       <Footer />
