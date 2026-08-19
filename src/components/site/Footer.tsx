@@ -10,6 +10,7 @@ const QUICK_LINKS = [
   { label: "Mission", href: "#mission" },
   { label: "Programs", href: "#programs" },
   { label: "Branches", href: "#branches" },
+  { label: "Gallery", href: "#gallery" },
   { label: "Contact", href: "#connect" },
 ];
 
