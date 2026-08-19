@@ -28,7 +28,7 @@ export function Hero() {
           </div>
 
           <h1 className="mt-6 font-display text-4xl font-extrabold leading-[1.1] tracking-tight text-primary-foreground sm:text-5xl lg:text-6xl">
-            Empowering Ethiopia's future health professionals
+            Lead by Example, Inspire with Action
           </h1>
 
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-primary-foreground/85">
