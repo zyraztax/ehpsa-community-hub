@@ -9,12 +9,6 @@ type Branch = {
 
 const BRANCHES: Branch[] = [
   {
-    city: "Gondar",
-    university: "University of Gondar",
-    short: "UoG",
-    telegram: "https://t.me/EHPSAGonder",
-  },
-  {
     city: "Jimma",
     university: "Jimma University",
     short: "JU",
@@ -84,7 +78,7 @@ export function Branches() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <SectionHeading
           eyebrow="Branches"
-          title="Our branches across Ethiopia"
+          title="Other Branches"
           description="EHPSA connects health profession students through active branches at universities nationwide. Find your campus and connect with the chapter on Telegram."
         />
 

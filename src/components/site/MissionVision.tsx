@@ -13,14 +13,9 @@ export function MissionVision() {
 
         <div className="mt-14 grid gap-8 lg:grid-cols-2">
           <div className="rounded-2xl border border-border bg-card p-9 shadow-sm">
-            <div className="flex items-center gap-3">
-              <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10 font-display text-lg font-bold text-primary">
-                M
-              </span>
-              <h3 className="font-display text-2xl font-bold text-foreground">
-                Our Mission
-              </h3>
-            </div>
+            <h3 className="font-display text-2xl font-bold text-foreground">
+              Our Mission
+            </h3>
             <p className="mt-5 text-base leading-relaxed text-muted-foreground">
               To advance the education, unity, and professional development of
               health profession students in Ethiopia — empowering them to serve
@@ -30,14 +25,9 @@ export function MissionVision() {
           </div>
 
           <div className="rounded-2xl border border-accent/40 bg-card p-9 shadow-sm">
-            <div className="flex items-center gap-3">
-              <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-accent/15 font-display text-lg font-bold text-accent-foreground">
-                V
-              </span>
-              <h3 className="font-display text-2xl font-bold text-foreground">
-                Our Vision
-              </h3>
-            </div>
+            <h3 className="font-display text-2xl font-bold text-foreground">
+              Our Vision
+            </h3>
             <p className="mt-5 text-base leading-relaxed text-muted-foreground">
               A strong, united community of health professionals equipped to
               deliver compassionate, high-quality care across Ethiopia — with
