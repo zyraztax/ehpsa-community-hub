@@ -1,3 +1,5 @@
+import ehpsaLogo from "@/assets/ehpsa-logo.jpg.asset.json";
+
 const LINKEDIN_URL =
   "https://www.linkedin.com/company/ethiopian-health-profession-students-association/";
 const TELEGRAM_URL = "https://t.me/EHPSAGonder";
@@ -7,7 +9,7 @@ const QUICK_LINKS = [
   { label: "About", href: "#about" },
   { label: "Mission", href: "#mission" },
   { label: "Programs", href: "#programs" },
-  { label: "Chapters", href: "#chapters" },
+  { label: "Branches", href: "#branches" },
   { label: "Contact", href: "#connect" },
 ];
 
@@ -19,11 +21,11 @@ export function Footer() {
           <div>
             <div className="flex items-center gap-3">
               <img
-                src="/favicon.png"
+                src={ehpsaLogo.url}
                 alt="EHPSA logo"
-                width={40}
-                height={40}
-                className="rounded-lg"
+                width={44}
+                height={44}
+                className="rounded-lg object-cover"
               />
               <span className="font-display text-lg font-bold">EHPSA</span>
             </div>
