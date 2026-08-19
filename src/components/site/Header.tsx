@@ -5,7 +5,7 @@ const NAV_LINKS = [
   { label: "About", href: "#about" },
   { label: "Mission", href: "#mission" },
   { label: "Programs", href: "#programs" },
-  { label: "Chapters", href: "#chapters" },
+  { label: "Branches", href: "#branches" },
   { label: "Contact", href: "#connect" },
 ];
 
@@ -19,11 +19,11 @@ export function Header() {
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <a href="#" className="flex items-center gap-3">
           <img
-            src="/favicon.png"
+            src={ehpsaLogo.url}
             alt="EHPSA logo"
-            width={36}
-            height={36}
-            className="rounded-lg"
+            width={40}
+            height={40}
+            className="rounded-lg object-cover"
           />
           <div className="leading-tight">
             <span className="block font-display text-base font-bold text-primary">
